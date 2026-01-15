@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div > p {
+        color: blue;
+      }
+      div > p {
+        color: red;
+      }
+      nav > a {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>This is a direct child</p>
+    </div>
+    <div>
+      <section>
+        <p>This is NOT a direct child</p>
+      </section>
+    </div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <div>
+        <a href="#">Contact</a>
+      </div>
+    </nav>
+  </body>
+</html>
